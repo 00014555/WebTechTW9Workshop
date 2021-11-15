@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-height: 400px;
+}
+.breeds {
+    overflow: scroll;
+}
+
+.breeds,
+.image {
+width: 350px;
+border: 1px solid #ccc;
+}
+
+.breed-list {
+    list-style: none;
+}
+
+.breed-item > a {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #777;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+   
+}
+.image-container > img {
+    width: 100%
+}
